@@ -1,0 +1,17 @@
+{
+    "dbType": "mssql",
+    "user": "cultyvate",
+    "password": "#Farns2020$",
+    "server": "cultyvate-sql.database.windows.net",
+    "database": "farmerfarmdetails",
+    "port": 1433,
+    "options": {
+      "encrypt": true,
+      "enableArithAbort": true
+    }   
+}
+
+
+     
+
+  
