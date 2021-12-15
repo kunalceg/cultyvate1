@@ -1,0 +1,61 @@
+{
+    "name": "mobileapp_nodejs",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "echo \"Error : no test specified\" && exit 1"
+    },
+    "engines": {
+        "node": "9.x"
+    },
+    "dependencies": {
+        "aws-sdk": "^2.1028.0",
+        "axios": "^0.19.2",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "crypto": "^1.0.1",
+        "dateformat": "^3.0.3",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "express-handlebars": "^3.1.0",
+        "express-router": "^0.0.1",
+        "firebase-admin": "^8.13.0",
+        "googleapis": "^88.2.0",
+        "helmet": "^4.6.0",
+        "http": "0.0.1-security",
+        "jwt-simple": "^0.5.6",
+        "loopback": "^3.27.0",
+        "messagebird": "^2.1.4",
+        "moment": "^2.24.0",
+        "morgan": "^1.10.0",
+        "mssql": "^6.3.2",
+        "multer": "^1.4.3",
+        "node-datetime": "^2.1.2",
+        "node-geocoder": "^3.27.0",
+        "node-pg-migrate": "^6.0.0",
+        "node-sms-send": "^0.1.3",
+        "nodemailer": "^6.7.0",
+        "nodemon": "^2.0.15",
+        "otp-generator": "^3.0.0",
+        "path": "^0.12.7",
+        "pg": "^8.7.1",
+        "postman-request": "^2.88.1-postman.30",
+        "qs": "^6.9.3",
+        "querystring": "^0.2.0",
+        "request": "^2.88.2",
+        "request-promise": "^4.2.5",
+        "request-promise-native": "^1.0.8",
+        "sendmessage": "^1.1.0",
+        "sequelize": "^6.9.0",
+        "sequelize-cli": "^6.3.0",
+        "shortid": "^2.2.15",
+        "speakeasy": "^2.0.0",
+        "sqlstring": "^2.3.1",
+        "uuid-apikey": "^1.4.6",
+        "validate-phone-number-node-js": "0.0.1",
+        "winston": "^3.3.3"
+    },
+    "devDependencies": {
+        "@types/uuid": "^8.3.0"
+    }
+}
